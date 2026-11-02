@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Datasets, trained models and experiment outputs
+data/
+experiments/
+output/
+results/
+sanity_checks/
+*.out
+*.err
+*.npz
+*.npy
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.dat
+*.pdf
+*.png
+*.jpg
+*.jpeg
+
+# Credentials and local files
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+.cursor/
+.DS_Store
+/.github-upload/
